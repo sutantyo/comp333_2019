@@ -23,39 +23,55 @@ First, we need to show the `Git Repositories` sub-window. On Eclipse, select
 
 > Window -> Show View -> Other -> Git -> Git Repositories
 
+<p align="center">
 <img src="/img/git-1-show-view-1.png" width="200">
 <img src="/img/git-2-show-view-2.png" width="200">
+</p>
 
 A new sub-window titled `Git Repositories` will open. To clone this repository, follow these steps: 
 1. Click on `Clone a Git repository` 
 
-<img src="/img/git-3-repo.png" width="180">
+<p align="center">
+<img src="/img/git-3-repo.png" width="300">
+</p>
 
 2. On the new window that pops up (Source Git Repository), enter `https://github.com/sutantyo/comp333_2019` as the URI and click `Next`. 
 
-![adding a repo](/img/git-4-clone-1.png)
+<p align="center">
+<img src="/img/git-4-clone-1.png" width="300">
+</p>
 
 3. On the next page (Branch Selection), select the master branch if it hasn't already been ticked, and click `Next`.
 
-![selecting branch](/img/git-5-clone-2.png)
+<p align="center">
+<img src="/img/git-5-clone-2.png" width="300">
+</p>
+
 
 4. On the next page (Local Destination), you can change the local directory if you want to, and then click `Finish`.
 
-![choose local directory](/img/git-6-clone-3.png)
+<p align="center">
+<img src="/img/git-6-clone-3.png" width="300">
+</p>
+
 
 5. Once you have cloned the repository, you should see the `comp333_2019 [master]` repository in the `Git Repositories` sub-window.
 
-![importing project](/img/git-7-import-1.png)
+<p align="center">
+<img src="/img/git-7-import-1.png" width="300">
+</p>
 
 6. Right click on this repo, and then select `Import Projects...`. You can click `Finish` on the newly opened window, unless there is any setting you want to change (I don't think there is any need). 
 
-![importing project](/img/git-8-import-2.png)
+<p align="center">
+<img src="/img/git-8-import-2.png" width="300">
+</p>
 
 7. The project should now be shown under the `Package Explorer`, and you can start modifying it.
 
-![package explorer](/img/git-9-final.png)
-
+<p align="center">
 <img src="/img/git-9-final.png" width="20">
+</p>
 
 
 ## Updating your repository 
@@ -63,7 +79,9 @@ A new sub-window titled `Git Repositories` will open. To clone this repository, 
 Whenever 
 
 
-![git pull](/img/git-10-pull.png)
+<p align="center">
+<img src="/img/git-10-pull.png" width="20">
+</p>
 
 ## Disclaimer
 
