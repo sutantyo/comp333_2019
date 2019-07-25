@@ -23,21 +23,21 @@ First, we need to show the `Git Repositories` sub-window. On Eclipse, select
 
 > Window -> Show View -> Other -> Git -> Git Repositories
 
-![Show View 1][/img/git-1-show-view-1.png]
-![Show View 2][/img/git-2-show-view-2.png]
+![Show View 1](/img/git-1-show-view-1.png)
+![Show View 2](/img/git-2-show-view-2.png)
 
 A new sub-window titled `Git Repositories` will open. To clone this repository, follow these steps: 
 1. Click on `Clone a Git repository` 
-![cloning a repo][/img/git-3-repo.png]
+![cloning a repo](/img/git-3-repo.png)
 2. On the new window that pops up (Source Git Repository), enter `https://github.com/sutantyo/comp333_2019` as the URI and click `Next`. 
-![adding a repo][/img/git-4-clone-1.png]
+![adding a repo](/img/git-4-clone-1.png)
 3. On the next page (Branch Selection), select the master branch if it hasn't already been ticked, and click `Next`.
-![selecting branch][/img/git-5-clone-2.png]
+![selecting branch](/img/git-5-clone-2.png)
 4. On the next page (Local Destination), you can change the local directory if you want to, and then click `Finish`.
-![choose local directory][/img/git-6-clone-3.png]
+![choose local directory](/img/git-6-clone-3.png)
 5. Once you have cloned the repository, you should see the `comp333_2019 [master]` repository in the `Git Repositories` sub-window.
-![importing project][/img/git-7-import-1.png]
+![importing project](/img/git-7-import-1.png)
 6. Right click on this repo, and then select `Import Projects...`. You can click `Finish` on the newly opened window, unless there is any setting you want to change (I don't think there is any need). 
-![importing project][/img/git-8-import-2.png]
+![importing project](/img/git-8-import-2.png)
 7. The project should now be shown under the `Package Explorer`, and you can start modifying it. 
-![package explorer][/img/git-9-final.png]
+![package explorer](/img/git-9-final.png)
