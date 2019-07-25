@@ -12,7 +12,7 @@ You do not need to understand Git for this subject, but as a third year computin
 understanding of the basics by now. If you do need to learn Git, then head over to https://www.atlassian.com/git 
 and read the Beginner articles. At the very least, you should understand what a `pull` means. 
 
-### Configuring Eclipse to work with Git
+## Configuring Eclipse to work with Git
 
 The following is based on the tutorial on https://www.vogella.com/tutorials/EclipseGit/article.html. Feel free to follow 
 the tutorial if you want a more complete understanding, but this section should be enough for the purposes of COMP333.
@@ -55,3 +55,17 @@ A new sub-window titled `Git Repositories` will open. To clone this repository, 
 7. The project should now be shown under the `Package Explorer`, and you can start modifying it.
 
 ![package explorer](/img/git-9-final.png)
+
+<img src="/img/git-9-final.png" width="20">
+
+
+## Updating your repository 
+
+Whenever 
+
+
+![git pull](/img/git-10-pull.png)
+
+## Disclaimer
+
+
