@@ -23,14 +23,13 @@ First, we need to show the `Git Repositories` sub-window. On Eclipse, select
 
 > Window -> Show View -> Other -> Git -> Git Repositories
 
-![Show View 1](/img/git-1-show-view-1.png)
-
-![Show View 2](/img/git-2-show-view-2.png)
+<img src="/img/git-1-show-view-1.png" width="200">
+<img src="/img/git-2-show-view-2.png" width="200">
 
 A new sub-window titled `Git Repositories` will open. To clone this repository, follow these steps: 
 1. Click on `Clone a Git repository` 
 
-![cloning a repo](/img/git-3-repo.png)
+<img src="/img/git-3-repo.png" width="180">
 
 2. On the new window that pops up (Source Git Repository), enter `https://github.com/sutantyo/comp333_2019` as the URI and click `Next`. 
 
