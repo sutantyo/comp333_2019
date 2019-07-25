@@ -43,45 +43,45 @@ A new sub-window titled `Git Repositories` will open. To clone this repository, 
 1. Click on `Clone a Git repository` 
 
 <p align="center">
-<img src="/img/git-3-repo.png" width="180">
+<img src="/img/git-3-repo.png" width="220">
 </p>
 
 2. On the new window that pops up (Source Git Repository), enter `https://github.com/sutantyo/comp333_2019` as the URI and click `Next`. 
 
 <p align="center">
-<img src="/img/git-4-clone-1.png" width="360">
+<img src="/img/git-4-clone-1.png" width="400">
 </p>
 
 3. On the next page (Branch Selection), select the master branch if it hasn't already been ticked, and click `Next`.
 
 <p align="center">
-<img src="/img/git-5-clone-2.png" width="360">
+<img src="/img/git-5-clone-2.png" width="400">
 </p>
 
 
 4. On the next page (Local Destination), you can change the local directory if you want to, and then click `Finish`.
 
 <p align="center">
-<img src="/img/git-6-clone-3.png" width="360">
+<img src="/img/git-6-clone-3.png" width="400">
 </p>
 
 
 5. Once you have cloned the repository, you should see the `comp333_2019 [master]` repository in the `Git Repositories` sub-window.
 
 <p align="center">
-<img src="/img/git-7-import-1.png" width="360">
+<img src="/img/git-7-import-1.png" width="400">
 </p>
 
 6. Right click on this repo, and then select `Import Projects...`. You can click `Finish` on the newly opened window, unless there is any setting you want to change (I don't think there is any need). 
 
 <p align="center">
-<img src="/img/git-8-import-2.png" width="360">
+<img src="/img/git-8-import-2.png" width="400">
 </p>
 
 7. The project should now be shown under the `Package Explorer`, and you can start modifying it.
 
 <p align="center">
-<img src="/img/git-9-final.png" width="180">
+<img src="/img/git-9-final.png" width="220">
 </p>
 
 
@@ -91,7 +91,7 @@ To pull the new files whenever the repository is updated, you simply right-click
 sub-window and select `Pull`.
 
 <p align="center">
-<img src="/img/git-10-pull.png" width="320">
+<img src="/img/git-10-pull.png" width="360">
 </p>
 
-
+The files in your project should be automatically updated. 
