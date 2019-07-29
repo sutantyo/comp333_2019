@@ -5,7 +5,7 @@ import java.util.TreeMap;
 /**
  * Class Vertex represents a single vertex in a graph
  * 
- * @author Daniel Sutantyo
+ * @author daniel.sutantyo@mq.edu.au
  */
 public class Vertex implements Comparable<Vertex>{
 
@@ -27,7 +27,6 @@ public class Vertex implements Comparable<Vertex>{
 	 * Vertex C is a neighbour with edge of weight 10.
 	 */
 	private TreeMap<Vertex,Integer> neighbours;
-	
 	
 
 	/**
@@ -88,16 +87,26 @@ public class Vertex implements Comparable<Vertex>{
 		return this.marked;
 	}
 	
+	/**
+	 * Set the vertex to be marked (visited)
+	 */
+	public void setMarked() {
+		this.marked = true;
+	}
+
+	/**
+	 * Set the vertex to be unmarked (not visited)
+	 */
 	public void setUnmarked() {
 		this.marked = false;
 	}
 
-	public void setMarked() {
-		this.marked = true;
-	}
 	
-	
-	// Getters and Setters 
+	/**
+	 * Return the vertex ID
+	 * 
+	 * @return the vertex id
+	 */
 	public int getID() {
 		return id;
 	}

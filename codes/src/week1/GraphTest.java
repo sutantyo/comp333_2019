@@ -40,11 +40,16 @@ public class GraphTest {
 		addEdge(5,6,0);
 		addEdge(5,7,0);
 		
+		// perform a DFS
 		DFS(vertexList.get(1));
+		System.out.println();
+		
+		
+		// unmark all vertices
 		g.unmarkAll();
 
-		System.out.println();
 
+		// perform a BFS
 		BFS(vertexList.get(1));
 		System.out.println();
 	}
@@ -54,7 +59,6 @@ public class GraphTest {
 		g.addEdge(vertexList.get(a), vertexList.get(b), w);
 		g.addEdge(vertexList.get(b), vertexList.get(a), w);
 	}
-	
 	
 	/**
 	 * Performs a DFS traversal of a connected component in a graph,
