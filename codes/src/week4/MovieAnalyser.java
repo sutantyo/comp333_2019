@@ -96,4 +96,24 @@ public class MovieAnalyser {
 	}
 	
 	
+	/*
+	1. How many actors/directors have been in more than 10 movies?
+
+
+	2. How many actors/directors have been in more than 35 movies? List them.
+
+
+	3. How many movies has Brad Pitt been in? (Hint: it is more than 30).
+
+
+	4. How many movies has Natalie Portman been in? List them.
+
+	
+	5. How many movies has Michael Bay been in? List them.
+	
+	
+	6. Which actor/director have been in the most number of movies? 
+	   How many movies has he or she been in?
+	
+	*/
 }
