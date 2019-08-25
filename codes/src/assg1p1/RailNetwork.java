@@ -1,4 +1,4 @@
-package assignment1;
+package assg1p1;
 
 import java.io.*;
 import java.util.*;
@@ -277,7 +277,7 @@ public class RailNetwork {
 	
 	/**
 	 * Given a route between two stations, compute the total distance 
-	 * of this route
+	 * of this route.
 	 * 
 	 * @param path	the list of stations in the route (as String objects)
 	 * @return		the length of the route between the first station
@@ -291,15 +291,46 @@ public class RailNetwork {
 		return distance;
 	}
 	
-	public Double ratio(String origin, String destination) {
-		return null;
-
+	
+	/** 
+	 * Given a route between two stations, compute the minimum total cost 
+	 * of exhaustive scans as described in the assignment specification for 
+	 * Stage 2.
+	 * 
+	 * Return 0 if there are 2 or less stations in the route. 
+	 * 
+	 * @param route  the list of stations in the route (as String objects)
+	 * @return		 the minimum cost of performing exhaustive scans
+	 */
+	public int optimalScanCost(ArrayList<String> route) {
+		if (route == null || route.size() <= 2)
+			return 0;
+		/*
+		 * INSERT YOUR CODE HERE
+		 */
+		
+		return 0;
 	}
 	
-	public void computeAllRatio() {
-
+	/***
+	 * Given a route between two stations, return the list of stations (in
+	 * the order that they were chosen) that gives the optimal segmentation 
+	 * for the exhaustive scan problem, as described in the assignment 
+	 * specification for Stage 2.
+	 * 
+	 * Return an empty ArrayList if there are 2 or less stations in the route.
+	 * 
+	 * @param route
+	 * @return
+	 */
+	public ArrayList<String> optimalScanSolution(ArrayList<String> route){
+		if (route == null || route.size() <= 2)
+			return new ArrayList<String>();
+		/*
+		 * INSERT YOUR CODE HERE
+		 */
+		
+		return null;
 	}
-
-
-
+	
 }
