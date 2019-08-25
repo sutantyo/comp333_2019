@@ -294,8 +294,8 @@ public class RailNetwork {
 	
 	/** 
 	 * Given a route between two stations, compute the minimum total cost 
-	 * of exhaustive scans as described in the assignment specification for 
-	 * Stage 2.
+	 * of performing an exhaustive scan on this route, as described in the 
+	 * assignment specification for Stage 2.
 	 * 
 	 * Return 0 if there are 2 or less stations in the route. 
 	 * 
@@ -314,9 +314,9 @@ public class RailNetwork {
 	
 	/***
 	 * Given a route between two stations, return the list of stations (in
-	 * the order that they were chosen) that gives the optimal segmentation 
-	 * for the exhaustive scan problem, as described in the assignment 
-	 * specification for Stage 2.
+	 * the order that they were chosen) that gives the segmentation that 
+	 * leads to the minimum cost for performing an exhaustive scan on the 
+	 * the route (as described in the assignment specification for Stage 2.
 	 * 
 	 * Return an empty ArrayList if there are 2 or less stations in the route.
 	 * 
