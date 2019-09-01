@@ -1,0 +1,17 @@
+Code,Line,Start,End,StationCount
+T1E,T1,Emu Plains,Chatswood,25
+T1R,T1,Richmond,Chatswood,26
+T1B,T1,Berowra,Lidcombe,28
+T2P,T2,Parramatta,Museum,25
+T2L,T2,Leppington,Museum,28
+T3B,T3,Liverpool,Museum,21
+T3L,T3,Lidcombe,Museum,25
+T4C,T4,Cronulla,Bondi Junction,26
+T4W,T4,Waterfall,Bondi Junction,24
+T5,T5,Leppington,Schofields,23
+T6,T6,Carlingford,Clyde,7
+T7,T7,Olympic Park,Lidcombe,2
+T8M,T8,Macarthur,Town Hall,22
+T8R,T8,Revesby,Town Hall,20
+T9,T9,Hornsby,Gordon,31
+M,Metro,Epping,Chatswood,5
