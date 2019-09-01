@@ -1,4 +1,4 @@
-package assignment1;
+package assg1p1;
 
 import java.util.TreeMap;
 
@@ -22,7 +22,7 @@ public class Station implements Comparable<Station>{
 	 * then the station is adjacented connected to Blacktown (2768 metres away) 
 	 * and Toongabbie (1984 metres away)
 	 */
-	TreeMap<Station,Integer> adjacentStations;
+	private TreeMap<Station,Integer> adjacentStations;
 
 	/**
 	 * Construct a new Station object

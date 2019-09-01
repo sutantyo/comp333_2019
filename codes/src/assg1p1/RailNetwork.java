@@ -165,8 +165,7 @@ public class RailNetwork {
 	/**
 	 * The method finds the shortest route (in terms of distance travelled) 
 	 * between the origin station and the destination station under the 
-	 * condition that it does not include any of the stations in the 
-	 * TreeSet<String> failures. 
+	 * condition that the route must not pass through any stations in 
 	 * 
 	 * The route is returned as an ArrayList<String> containing the names of 
 	 * the stations along the route, including the origin and the destination 
@@ -239,8 +238,8 @@ public class RailNetwork {
 	/**
 	 * The method finds the shortest route (in terms of number of stops)
 	 * between the origin station and the destination station under the 
-	 * condition that it does not include any of the stations in the 
-	 * TreeSet<String> failures. 
+	 * condition that the route must not pass through any stations in 
+	 * TreeSet<String> failures (i.e. the rail segment cannot be travelled on)
 	 * 
 	 * The route is returned as an ArrayList<String> containing the names of 
 	 * the stations along the route, including the origin and the destination 
