@@ -24,7 +24,6 @@ public class Station implements Comparable<Station>{
 	 * and Toongabbie (1984 metres away)
 	 */
 	private TreeMap<Station,Integer> adjacentStations;
-	private HashMap<Line,Integer> lineInformation; 
 
 	/**
 	 * Construct a new Station object
@@ -40,7 +39,6 @@ public class Station implements Comparable<Station>{
 		this.marked = false;
 		
 		adjacentStations = new TreeMap<Station,Integer>();
-		lineInformation = new HashMap<Line,Integer>();
 	}
 	
 	/**
@@ -64,10 +62,6 @@ public class Station implements Comparable<Station>{
 			this.adjacentStations.put(s, distance);
 	}
 	
-	public void addLine(Line l, Integer stop) {
-		if (l != null) 
-			this.lineInformation.put(l, stop);
-	}
 	
 	/* Getters */
 	public String getName() {
