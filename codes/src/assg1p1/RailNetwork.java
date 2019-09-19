@@ -277,14 +277,18 @@ public class RailNetwork {
 	
 	/**
 	 * Given a route between two stations, compute the total distance 
-	 * of this route.
+	 * of this route. Return 0 if there is one or less station in the 
+	 * route.
 	 * 
 	 * @param path	the list of stations in the route (as String objects)
 	 * @return		the length of the route between the first station
-	 * 				and last station in the list	
+	 * 				and last station in the list, 0 if path is empty
+	 * 				or null
 	 */
 	public int findTotalDistance(ArrayList<String> path) {
 		int distance = 0;
+		if (path == null || path.isEmpty())
+			return 0;
 		/*
 		 * INSERT YOUR CODE HERE
 		 */
