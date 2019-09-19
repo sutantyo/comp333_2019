@@ -382,7 +382,7 @@ public class RailNetworkTest {
 		
 		int expected = 9703;
 		int actual = r.findTotalDistance(r.routeMinDistance(origin, destination, failures));
-		assertEquals(actual,expected);
+		assertEquals(expected,actual);
 	}
 	
 	@Test
@@ -393,7 +393,7 @@ public class RailNetworkTest {
 		
 		int expected = 70768;	
 		int actual = r.findTotalDistance(r.routeMinDistance(origin, destination, failures));
-		assertEquals(actual,expected);
+		assertEquals(expected,actual);
 	}
 	
 	@Test
@@ -408,7 +408,7 @@ public class RailNetworkTest {
 		
 		int expected = 106712;	
 		int actual = r.findTotalDistance(r.routeMinDistance(origin, destination, failures));
-		assertEquals(actual,expected);
+		assertEquals(expected,actual);
 	}
 	
 	@Test
@@ -423,7 +423,7 @@ public class RailNetworkTest {
 		
 		int expected = 108550;	
 		int actual = r.findTotalDistance(r.routeMinStop(origin, destination, failures));
-		assertEquals(actual,expected);
+		assertEquals(expected,actual);
 	}
 	
 	@Test
@@ -435,7 +435,7 @@ public class RailNetworkTest {
 		
 		int expected = 0;	
 		int actual = r.findTotalDistance(r.routeMinStop(origin, destination, failures));
-		assertEquals(actual,expected);
+		assertEquals(expected,actual);
 	}
 	
 	/** Tests for optimalScanCost **/
@@ -445,9 +445,9 @@ public class RailNetworkTest {
 		String origin = "Blacktown";
 		String destination = "Pendle Hill";
 		
-		int expected = 11134;	
+		int expected = 9996;	
 		int actual = r.optimalScanCost((r.routeMinDistance(origin, destination)));
-		assertEquals(actual,expected);
+		assertEquals(expected,actual);
 	}
 	
 	@Test
@@ -457,7 +457,7 @@ public class RailNetworkTest {
 		
 		int expected = 29313;	
 		int actual = r.optimalScanCost((r.routeMinDistance(origin, destination)));
-		assertEquals(actual,expected);
+		assertEquals(expected,actual);
 	}
 
 	@Test
@@ -465,9 +465,9 @@ public class RailNetworkTest {
 		String origin = "Hornsby";
 		String destination = "Central";
 		
-		int expected = 102482;	
+		int expected = 102062;	
 		int actual = r.optimalScanCost((r.routeMinDistance(origin, destination)));
-		assertEquals(actual,expected);
+		assertEquals(expected,actual);
 	}
 	
 	@Test
@@ -475,9 +475,9 @@ public class RailNetworkTest {
 		String origin = "Central";
 		String destination = "Richmond";
 		
-		int expected = 298760;	
+		int expected = 298418;	
 		int actual = r.optimalScanCost((r.routeMinDistance(origin, destination)));
-		assertEquals(actual,expected);
+		assertEquals(expected,actual);
 	}
 	
 	@Test
@@ -485,9 +485,9 @@ public class RailNetworkTest {
 		String origin = "Richmond";
 		String destination = "Waterfall";
 		
-		int expected = 533991;	
+		int expected = 533404;	
 		int actual = r.optimalScanCost((r.routeMinDistance(origin, destination)));
-		assertEquals(actual,expected);
+		assertEquals(expected,actual);
 	}
 	
 }
