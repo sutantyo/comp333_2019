@@ -490,4 +490,80 @@ public class RailNetworkTest {
 		assertEquals(expected,actual);
 	}
 	
+	/** Tests for optimalScanSolution **/
+	@Test
+	public void optimalScanSolutionTest1() {
+		String origin = "Blacktown";
+		String destination = "Pendle Hill";
+		
+		String[] expected = {"Seven Hills"};
+		ArrayList<String> actual = r.optimalScanSolution(r.routeMinDistance(origin, destination));
+		Collections.sort(actual);
+		
+		assertArrayEquals(expected,actual.toArray());
+	}
+	
+	@Test
+	public void optimalScanSolutionTest2() {
+		String origin = "Parramatta";
+		String destination = "Blacktown";
+		
+		String[] expected = {"Toongabbie", "Wentworthville"};
+		ArrayList<String> actual = r.optimalScanSolution(r.routeMinDistance(origin, destination));
+		Collections.sort(actual);
+		
+		assertArrayEquals(expected,actual.toArray());
+	}
+	
+	@Test
+	public void optimalScanSolutionTest3() {
+		String origin = "Central";
+		String destination = "Hornsby";
+		
+		String[] expected = {"Artarmon","Killara","Milsons Point","Pymble",
+							 "Roseville","St Leonards","Turramurra","Wahroonga",
+							 "Waverton","Wynyard"};
+
+		ArrayList<String> actual = r.optimalScanSolution(r.routeMinDistance(origin, destination));
+		Collections.sort(actual);
+		
+		assertArrayEquals(expected,actual.toArray());
+	}
+	
+	@Test
+	public void optimalScanSolutionTest4() {
+		String origin = "Richmond";
+		String destination = "Central";
+		
+		String[] expected = {"Ashfield","Blacktown","Burwood","Clarendon","Clyde",
+							 "Harris Park","Homebush","Lewisham","Lidcombe",
+							 "Macdonaldtown","Mulgrave","Parramatta","Pendle Hill",
+							 "Quakers Hill","Riverstone","Seven Hills","Stanmore",
+							 "Westmead"};
+
+		ArrayList<String> actual = r.optimalScanSolution(r.routeMinDistance(origin, destination));
+		Collections.sort(actual);
+		
+		assertArrayEquals(expected,actual.toArray());
+	}
+	
+	@Test
+	public void optimalScanSolutionTest5() {
+		String origin = "Richmond";
+		String destination = "Waterfall";
+		
+		String[] expected = {"Allawah","Arncliffe","Ashfield","Auburn","Burwood",
+							 "Clarendon","Clyde","Como","Erskineville",
+							 "Flemington","Harris Park","Heathcote","Homebush",
+							 "Hurstville","Kogarah","Loftus","Marayong","Newtown",
+							 "Oatley","Pendle Hill","Penshurst","Petersham",
+							 "Redfern","Rockdale","Schofields","Seven Hills",
+							 "Summer Hill","Sutherland","Sydenham","Tempe",
+							 "Vineyard","Westmead","Windsor"};
+
+		ArrayList<String> actual = r.optimalScanSolution(r.routeMinDistance(origin, destination));
+		Collections.sort(actual);
+		
+		assertArrayEquals(expected,actual.toArray());
+	}
 }
