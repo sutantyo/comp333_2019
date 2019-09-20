@@ -141,7 +141,7 @@ public class RailNetworkAdvanced {
 	}
 
 	/**
-	 * The method finds the shortest route (in terms of number of stops)
+	 * The method finds the shortest route (in terms of distance travelled) 
 	 * between the origin station and the destination station.
 	 * The route is returned as an ArrayList<String> containing the names of 
 	 * the stations along the route, including the origin and the destination 
@@ -160,7 +160,7 @@ public class RailNetworkAdvanced {
 	 * @param destination	the destination station
 	 * @return
 	 */
-	public ArrayList<String> routeMinStop(String origin, String destination){
+	public ArrayList<String> routeMinDistance(String origin, String destination){
 		if (!stationList.containsKey(origin) || !stationList.containsKey(destination)) {
 			return new ArrayList<String>();
 		}
@@ -172,6 +172,7 @@ public class RailNetworkAdvanced {
 		/*
 		 * INSERT YOUR CODE HERE
 		 */
+	
 		return null;
 	}
 
