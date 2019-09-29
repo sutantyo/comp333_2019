@@ -21,6 +21,54 @@ public class Stage3Test {
 	}	
 	
 	@Test
+	public void computeRatioTest1() {
+
+		String origin = "Parramatta";
+		String destination = "Strathfield";
+		
+		Double expected = 1.097584920479088;
+		Double actual = r.computeRatio(origin, destination);
+
+		assertEquals(expected,actual,epsilon);
+	}
+	
+	@Test
+	public void computeRatioTest2() {
+
+		String origin = "Bankstown";
+		String destination = "Hornsby";
+		
+		Double expected = 1.3356612123918958;
+		Double actual = r.computeRatio(origin, destination);
+
+		assertEquals(expected,actual,epsilon);
+	}
+	
+	@Test
+	public void computeRatioTest3() {
+
+		String origin = "Richmond";
+		String destination = "Hurstville";
+		
+		Double expected = 1.3687600644122384;
+		Double actual = r.computeRatio(origin, destination);
+
+		assertEquals(expected,actual,epsilon);
+	}
+	
+	@Test
+	public void computeRatioTest4() {
+
+		String origin = "Hurstville";
+		String destination = "Richmond";
+		
+		Double expected = 1.3687600644122384;
+		Double actual = r.computeRatio(origin, destination);
+
+		assertEquals(expected,actual,epsilon);
+	}
+	
+	@Test
 	public void computeAllRatioTest1() {
 
 		String origin = "Parramatta";
