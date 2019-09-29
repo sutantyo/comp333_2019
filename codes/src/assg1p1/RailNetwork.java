@@ -76,7 +76,7 @@ public class RailNetwork {
 	 * @param lon1 longitude coordinate of x
 	 * @param lat2 latitude coordinate of y
 	 * @param lon2 longitude coordinate of y
-	 * @return distance betwee
+	 * @return distance between x and y
 	 */
 	public static int computeDistance(double lat1, double lon1, double lat2, double lon2) {
         // distance between latitudes and longitudes 
