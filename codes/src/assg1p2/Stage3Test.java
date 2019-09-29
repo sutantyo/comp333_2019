@@ -68,7 +68,7 @@ public class Stage3Test {
 		assertEquals(expected,actual,epsilon);
 	}
 	
-	@Test
+	@Test(timeout=8000)
 	public void computeAllRatioTest1() {
 
 		String origin = "Parramatta";
@@ -82,7 +82,7 @@ public class Stage3Test {
 		assertEquals(expected,actual,epsilon);
 	}
 
-	@Test
+	@Test(timeout=3000)
 	public void computeAllRatioTest2() {
 		String origin = "Bankstown";
 		String destination = "Hornsby";
@@ -95,7 +95,7 @@ public class Stage3Test {
 		assertEquals(expected,actual,epsilon);
 	}
 	
-	@Test
+	@Test(timeout=1000)
 	public void computeAllRatioTest3() {
 		String origin = "Richmond";
 		String destination = "Hurstville";
@@ -108,7 +108,7 @@ public class Stage3Test {
 		assertEquals(expected,actual,epsilon);
 	}
 	
-	@Test
+	@Test(timeout=1000)
 	public void computeAllRatioTest4() {
 		String origin = "Hurstville";
 		String destination = "Richmond";
