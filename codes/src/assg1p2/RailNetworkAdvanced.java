@@ -200,7 +200,7 @@ public class RailNetworkAdvanced {
 	 * 
 	 * In other words, 
 	 * let d1 = distance of shortest route between the two stations as computed
-	 *          by the method routeMinStop() (from Stage 1).
+	 *          by the method routeMinDistance() (from Stage 1).
 	 * let d2 = distance between two stations as computed by the method
 	 *          computeDistance() 
 	 *          
