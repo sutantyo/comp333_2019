@@ -33,4 +33,54 @@ public class ProblemBTest {
 		Integer expected = 6;
 		assertEquals(expected,actual);
 	}
+	
+	@Test
+	public void test03() {
+		String data = "src/data/a2p1_problemB_input_03.csv";
+		p = new ProblemB(data);
+		
+		Integer actual = p.computeMinDevice();
+		Integer expected = 5;
+		assertEquals(expected,actual);
+	}
+	
+	@Test
+	public void test04() {
+		String data = "src/data/a2p1_problemB_input_04.csv";
+		p = new ProblemB(data);
+		
+		Integer actual = p.computeMinDevice();
+		Integer expected = 38;
+		assertEquals(expected,actual);
+	}
+	
+	@Test
+	public void test05() {
+		String data = "src/data/a2p1_problemB_input_05.csv";
+		p = new ProblemB(data);
+		
+		Integer actual = p.computeMinDevice();
+		Integer expected = 46;
+		assertEquals(expected,actual);
+	}
+	
+	@Test
+	public void test06() {
+		String data = "src/data/a2p1_problemB_input_06.csv";
+		p = new ProblemB(data);
+		
+		Integer actual = p.computeMinDevice();
+		Integer expected = 85;
+		assertEquals(expected,actual);
+	}
+	
+	@Test
+	public void test07() {
+		String data = "src/data/a2p1_problemB_input_07.csv";
+		p = new ProblemB(data);
+		
+		Integer actual = p.computeMinDevice();
+		Integer expected = 135;
+		assertEquals(expected,actual);
+	}
 }
