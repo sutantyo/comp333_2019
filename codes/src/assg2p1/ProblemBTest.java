@@ -13,7 +13,7 @@ public class ProblemBTest {
 	@Before public void initialize() {
 	}	
 	
-	@Test
+	@Test(timeout=500)
 	public void test01() {
 
 		String data = "src/data/a2p1_problemB_input_01.csv";
@@ -24,7 +24,7 @@ public class ProblemBTest {
 		assertEquals(expected,actual);
 	}
 	
-	@Test
+	@Test(timeout=500)
 	public void test02() {
 		String data = "src/data/a2p1_problemB_input_02.csv";
 		p = new ProblemB(data);
@@ -34,7 +34,7 @@ public class ProblemBTest {
 		assertEquals(expected,actual);
 	}
 	
-	@Test
+	@Test(timeout=500)
 	public void test03() {
 		String data = "src/data/a2p1_problemB_input_03.csv";
 		p = new ProblemB(data);
@@ -44,7 +44,7 @@ public class ProblemBTest {
 		assertEquals(expected,actual);
 	}
 	
-	@Test
+	@Test(timeout=500)
 	public void test04() {
 		String data = "src/data/a2p1_problemB_input_04.csv";
 		p = new ProblemB(data);
@@ -54,7 +54,7 @@ public class ProblemBTest {
 		assertEquals(expected,actual);
 	}
 	
-	@Test
+	@Test(timeout=500)
 	public void test05() {
 		String data = "src/data/a2p1_problemB_input_05.csv";
 		p = new ProblemB(data);
@@ -64,7 +64,7 @@ public class ProblemBTest {
 		assertEquals(expected,actual);
 	}
 	
-	@Test
+	@Test(timeout=500)
 	public void test06() {
 		String data = "src/data/a2p1_problemB_input_06.csv";
 		p = new ProblemB(data);
@@ -74,7 +74,7 @@ public class ProblemBTest {
 		assertEquals(expected,actual);
 	}
 	
-	@Test
+	@Test(timeout=500)
 	public void test07() {
 		String data = "src/data/a2p1_problemB_input_07.csv";
 		p = new ProblemB(data);
